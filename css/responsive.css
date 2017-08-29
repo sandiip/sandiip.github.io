@@ -1,0 +1,434 @@
+
+
+@media only screen and (max-width: 1160px) {
+    a.navbar-brand img {
+        max-width: 67%;
+        margin-top: -5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 985px) {
+    a.navbar-brand img {
+        max-width: 67%;
+        margin-top: -5px;
+    }
+
+    }
+
+
+
+@media only screen and (max-width: 960px) {
+    a.navbar-brand img {
+        max-width: 67%;
+        margin-top: -5px;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+
+}
+
+
+@media only screen and (max-width: 850px) {
+    a.navbar-brand img {
+        position: absolute;
+        margin-top: -20px;
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (max-width: 759px) {
+    a.navbar-brand img {
+        position: absolute;
+        margin-top: -12px;
+        width: 70%;
+    }
+    .heading h1 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    #bg-img {
+        background-image: url(../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        height: 484px;
+        background-size: 847px auto;
+    }
+    #call-to-action h2 {
+        color: #fff;
+        font-family: lato;
+        text-transform: uppercase;
+        margin-top: 110px;
+        font-size: 20px;
+
+    }
+    #call-to-action h4 {
+        color: #fff;
+        font-family: lato;
+        font-size: 10px;
+         margin-left: 0;
+    }
+    #call-to-action-btn button {
+        color: #fff;
+        background-color: transparent;
+        border: 3px solid #fff;
+        border-radius: 0;
+        margin-top: 0;
+        margin-left: 135px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+}
+
+
+@media only screen and (max-width: 690px) {
+    a.navbar-brand img {
+        max-width: 50%;
+        margin-top: -15px;
+    }
+    .heading h1 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .heading h3 {
+        font-size: 22px;
+        line-height: 4px;
+        margin-bottom: 28px;
+    }
+    #bg-img {
+        background-image: url(../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        height: 310px;
+        background-size: 847px auto;
+    }
+    #call-to-action h2 {
+        color: #fff;
+        font-family: lato;
+        text-transform: uppercase;
+        margin-top: 110px;
+        font-size: 20px;
+         margin-left: 0;
+    }
+    #call-to-action h4 {
+        color: #fff;
+        font-family: lato;
+        font-size: 10px;
+         margin-left: 0;
+    }
+    #call-to-action-btn button {
+        color: #fff;
+        background-color: transparent;
+        border: 3px solid #fff;
+        border-radius: 0;
+        margin-top: 0;
+        margin-left: 135px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .slider-contant h3 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .slider-contant h2 {
+        font-size: 48px;
+        /* margin-top: 50px; */
+        color: #fff;
+        font-weight: 900;
+    }
+    #resumeheading {
+        margin-top: 20px;
+    }
+    #resume-heading h2{
+        display: none;
+    }
+    .resume {
+        margin-top: 0px;
+    }
+    #front-end h2 {
+        margin-top: 15px;
+        font-weight: 200;
+    }
+    #front-end p {
+        font-weight: 200;
+        font-size: 19px;
+        text-align: left;
+        margin-left: 23px;
+    }
+    div#front-end img {
+        width: 296px;
+        height: 321px;
+    }
+    div#javascript img {
+        width: 330px;
+        height: 250px;
+        margin-top: 35px;
+    }
+    #javascript h2 {
+        text-align: left;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    div#wordpress img {
+        height: 296px;
+        width: 344px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    a.navbar-brand img {
+        max-width: 60%;
+        margin-top: -13px;
+    }
+    .heading h1 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .heading h3 {
+        font-size: 22px;
+        line-height: 4px;
+        margin-bottom: 28px;
+    }
+    .about-me-section {
+        background: #6cf1fa;
+        /*background-image: url("../img/profile.jpg");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+    section#about p {
+        font-family: "loto",cursive;
+        margin: 0 0 10px;
+        line-height: 30px;
+        color: #000;
+    }
+    #bg-img {
+        background-image: url(../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        height: 310px;
+        background-size: 847px auto;
+    }
+    #call-to-action h2 {
+        color: #fff;
+        font-family: lato;
+        text-transform: uppercase;
+        margin-top: 110px;
+        font-size: 20px;
+         margin-left: 0px;
+    }
+    #call-to-action h4 {
+        color: #fff;
+        font-family: lato;
+        font-size: 10px;
+         margin-left: 0;
+    }
+    #call-to-action-btn button {
+        color: #fff;
+        background-color: transparent;
+        border: 3px solid #fff;
+        border-radius: 0;
+        margin-top: 0;
+        margin-left: 135px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .slider-contant h3 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .slider-contant h2 {
+        font-size: 48px;
+        /* margin-top: 50px; */
+        color: #fff;
+        font-weight: 900;
+    }
+    .slider-contant h1 {
+        font-size: 100px;
+        margin-top: 202px;
+        color: #fff;
+        font-weight: 900;
+    }
+    #resumeheading {
+        margin-top: 20px;
+    }
+    #resume-heading h2{
+        display: none;
+    }
+    #front-end h2 {
+        margin-top: 15px;
+        font-weight: 200;
+    }
+    #front-end p {
+        font-weight: 200;
+        font-size: 19px;
+        text-align: left;
+    }
+    div#front-end img {
+        width: 296px;
+        height: 321px;
+    }
+    #javascript h2 {
+        text-align: left;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    div#wordpress img {
+        height: 296px;
+        width: 344px;
+    }
+    .resume {
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #bg-img {
+        background-image: url(../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        height: 310px;
+        background-size: 847px auto;
+    }
+    .slider-contant h3 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .slider-contant h2 {
+        font-size: 48px;
+        /* margin-top: 50px; */
+        color: #fff;
+        font-weight: 900;
+    }
+    .slider-contant h1 {
+        font-size: 100px;
+        margin-top: 202px;
+        color: #fff;
+        font-weight: 900;
+    }
+    #resumeheading {
+        margin-top: 20px;
+    }
+    #resume-heading h2{
+        display: none;
+    }
+    #front-end h2 {
+        margin-top: 15px;
+        font-weight: 200;
+    }
+    #front-end p {
+        font-weight: 200;
+        font-size: 19px;
+        text-align: left;
+        margin-left: 23px;
+    }
+    div#front-end img {
+        width: 296px;
+        height: 321px;
+    }
+    div#javascript img {
+        width: 330px;
+        height: 250px;
+        margin-top: 35px;
+    }
+    #javascript h2 {
+        text-align: left;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    div#wordpress img {
+        height: 296px;
+        width: 344px;
+    }
+    .resume {
+        margin-top: 0px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+    a.navbar-brand img {
+        max-width: 67%;
+        margin-top: -5px;
+    }
+    .heading h1 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .heading h3 {
+        font-size: 22px;
+        line-height: 4px;
+        margin-bottom: 28px;
+    }
+
+    #bg-img {
+        background-image: url(../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        height: 484px;
+        background-size: 847px auto;
+    }
+    .slider-contant h3 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .slider-contant h2 {
+        font-size: 48px;
+        /* margin-top: 50px; */
+        color: #fff;
+        font-weight: 900;
+    }
+    .slider-contant h1 {
+        font-size: 100px;
+        margin-top: 202px;
+        color: #fff;
+        font-weight: 900;
+    }
+    #resumeheading {
+        margin-top: 20px;
+    }
+    #resume-heading h2{
+        display: none;
+    }
+    #front-end h2 {
+        margin-top: 15px;
+        font-weight: 200;
+    }
+    #front-end p {
+        font-weight: 200;
+        font-size: 19px;
+        text-align: left;
+        margin-left: 23px;
+    }
+    div#front-end img {
+        width: 296px;
+        height: 321px;
+    }
+    div#javascript img {
+        width: 330px;
+        height: 250px;
+        margin-top: 35px;
+    }
+    #javascript h2 {
+        text-align: left;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    div#wordpress img {
+        height: 296px;
+        width: 344px;
+    }
+    .resume {
+        margin-top: 0px;
+    }
+
+}

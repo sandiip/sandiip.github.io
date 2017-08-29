@@ -1,0 +1,321 @@
+h1{
+    font-weight: 700;
+}
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: lato;
+}
+/*navbar-menu items*/
+.navbar-nav>li>a {
+    color: #333333;
+    font-family: lato;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 48px;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+/*navbar*/
+nav.navbar.navbar-fixed-top {
+    background: linear-gradient(#389C90,#3b9c90);
+    height: 80px;
+    /*border-bottom: #e8958d;*/
+    /*box-shadow: 0 2px 1px 0 #888888;*/
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 15px 15px;
+    margin-top: 17px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: goldenrod;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*website-logo*/
+    a.navbar-brand img {
+    position: absolute;
+    margin-top: -22px;
+}
+    /*hero section*/
+/*.item-1{*/
+    /*background: url("../img/bg-header-1.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*height: 700px;*/
+    /*filter:blur(1px);*/
+/*}*/
+/*.item-2{*/
+     /*background: url("../img/bg-header-2.jpg") no-repeat;*/
+     /*background-size: cover;*/
+     /*height: 700px;*/
+     /*filter:blur(1px);*/
+ /*}*/
+/*.item-3{*/
+      /*background: url("../img/bg-header-3.jpg") no-repeat;*/
+      /*background-size: cover;*/
+      /*height: 700px;*/
+      /*filter:blur(1px);*/
+  /*}*/
+/*.heading {*/
+    /*margin-top: -485px;*/
+    /*border: 2px solid #000;*/
+    /*background-color: rgba(223, 219, 219, 0.22);*/
+/*}*/
+/*.heading h1 {*/
+    /*font-size: 109px;*/
+    /*font-weight: 500;*/
+    /*color: #fff;*/
+/*}*/
+/*.heading h3 {*/
+    /*font-size: 57px;*/
+    /*font-weight: 600;*/
+    /*color: #fff;*/
+/*}*/
+
+/*about-me-section*/
+.about-me-section {
+    background: #6cf1fa;
+    background-image: url("../img/profile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.about-me-section h1{
+    margin-top: 90px;
+}
+.about-me-section h4{
+    font-size: 12px;
+}
+#mobile-profile{
+    display: none;
+}
+#about-me p{
+    margin: 28px -3px 0 -163px;
+    text-align: justify;
+    font-family: lato;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+}
+#bg-img{
+    background-image: url(../img/bg-img.jpg);
+    height: 550px;
+    background-size: 1812px auto;
+    background-repeat: no-repeat;
+}
+/*call-to-action*/
+#call-to-action h2 {
+    color: #fff;
+    font-family: lato;
+    text-transform: uppercase;
+    margin-top: 205px;
+    font-size: 35px;
+    margin-left: -170px;
+}
+#call-to-action h4 {
+    color: #fff;
+    font-family: lato;
+    font-size: 19px;
+    margin-left: -170px;
+}
+
+#call-to-action-btn button {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    margin-top: 207px;
+    margin-left: -170px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#call-to-action-btn button:hover {
+    color: #fff;
+    border: 3px solid #ed0f0f;
+    cursor: pointer;
+}
+/*resume*/
+.resume{
+    margin-top: -120px;
+}
+#resume-heading h2 {
+    color: rgba(159, 159, 159, 0.45);
+    font-size: 82px;
+    font-weight: 800;
+    transform: rotate(-90deg);
+    margin-top: 325px;
+    margin-bottom:170px;
+    margin-left: -196px;
+}
+#resumeheading{
+    margin-top: 150px;
+}
+.list_resume h1 {
+    font-size: 21px;
+    color: rgba(159, 159, 159, 0.45);
+    margin: 0 0 10px;
+    font-weight: 900;
+}
+.list_resume h3 {
+    font-weight: 900;
+    color: #389c90;
+    font-size: 20px;
+}
+.list_resume {
+    border-left: 2px solid #389c90;
+    padding: 29px 29px 106px;
+    padding: 0px 15px 18px 31px;
+    /* position: relative; */
+    margin-top: 45px;
+}
+.list_resume p {
+    font-size: 17px;
+    font-family: lato;
+    font-weight: 100;
+}
+.list_resume:before {
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 25px;
+    position: absolute;
+    left: 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    content: '';
+}
+.list_resume:before {
+    border: 2px solid #389c90;
+    background: #fff;
+}
+.list_resume:after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 25px;
+    position: absolute;
+    left: 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    content: '';
+}
+
+/*portfolio*/
+#portfolio{
+    /*background-color: palevioletred;*/
+    /*height: 300px;*/
+}
+
+
+/*contact*/
+#contact{
+    /*background-image: url("../img/contact.jpg");*/
+    background-repeat: no-repeat;
+    background-size: 1600px auto;
+}
+.slider{
+    background-image: url("../img/intro.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    /*filter:blur(2px);*/
+}
+.slider-contant h1{
+    font-size: 100px;
+    margin-top: 150px;
+    color: #fff;
+    font-weight: 900;
+}
+.slider-contant h2{
+    font-size: 100px;
+    /*margin-top: 50px;*/
+    color: #fff;
+    font-weight: 900;
+}
+.slider-contant h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*services*/
+#services{
+    /*background: linear-gradient(rgba(0, 0, 0, 0.84), #000000);*/
+    /*height: 500px;*/
+    margin-top: 5px;
+}
+#front-end h2 {
+    margin-top: 150px;
+    font-weight: 200;
+}
+#front-end p{
+    font-weight: 200;
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 123px;
+}
+
+#javascript h2{
+    text-align: left;
+    margin-top: 80px;
+    font-weight: 200;
+}
+#javascript P{
+    font-weight: 200;
+    font-size: 19px;
+    margin-right: 50px;
+    text-align: left;
+}
+#wordpress h2{
+    text-align: left;
+    margin-top: 80px;
+    font-weight: 200;
+}
+#wordpress p{
+    font-weight: 200;
+    font-size: 19px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+/*portfoliyo*/
+#protfoliyo-img img{
+    display: inline-block;
+    width: 240px;
+    height: 173px;
+    margin: 8px 21px 0 21px;
+}
+/*footer*/
+#footer{
+    background: linear-gradient(#389C90,#479C73);
+}
+/*glyphicon glyphicon-chevron-up*/
+.upper {
+    color: #000;
+    font-size: 30px;
+}
+
+/*social-icon*/
+.social-icon a{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.social-icon a:hover{
+     cursor: pointer;
+    color: #000;
+}
