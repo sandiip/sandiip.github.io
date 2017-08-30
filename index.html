@@ -187,12 +187,6 @@
  </div>
 </section>
 
-
-
-
-
-
-
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
     <h2>Portfolio</h2><br>
@@ -207,9 +201,6 @@
                 <img src="img/p4.png" class="img-responsive" width="200" height="200">
             </div>
             <!--<div class="col-md-2"></div>-->
-
-
-
         </div>
     </div>
 
@@ -251,8 +242,8 @@
             <p><span class="glyphicon glyphicon-phone"></span> +91 9536327803</p>
             <p><span class="glyphicon glyphicon-envelope"></span> sandeep.panwar0094@gmail.com</p>
         </div>
-        <?php include('form_process.php'); ?>
-        <form id="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+      <div id="message"></div>
+       <form id="cform" name="cform"  method="post">
          <div class="col-sm-7 slideanim">
             <div class="row">
                 <div class="col-sm-6 form-group">
@@ -272,34 +263,6 @@
         </form>
     </div>
 </div>
-<!--javascript for form submition-->
-<div>
-    <script>
-        function _(id){ return document.getElementById(id); }
-        function submitForm(){
-            _("mybtn").disabled = true;
-            _("status").innerHTML = 'please wait ...';
-            var formdata = new FormData();
-            formdata.append( "name", _("name").value );
-            formdata.append( "email", _("email").value );
-            formdata.append( "comments", _("comments").value );
-            var ajax = new XMLHttpRequest();
-            ajax.open( "POST", "form.php" );
-            ajax.onreadystatechange = function() {
-                if(ajax.readyState == 4 && ajax.status == 200) {
-                    if(ajax.responseText == "success"){
-                        _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
-                    } else {
-                        _("status").innerHTML = ajax.responseText;
-                        _("mybtn").disabled = false;
-                    }
-                }
-            }
-            ajax.send( formdata );
-        }
-    </script>
-</div>
-
 
 <!--call toaction here-->
 <section id="bg-img">
@@ -325,7 +288,6 @@
             <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4"></div>
             <div class="col-lg-4-offset col-md-4-offset col-xs-4-offset col-sm-4-offset"></div>
         </div>
-
     </div>
     <a href="#home" title="To Top">
         <span class="glyphicon glyphicon-chevron-up upper"></span>
@@ -339,7 +301,7 @@
     <p class="text-center">Design and Develop by &#9829 SANDEEP PANWAR</p>
 </footer>
 
-<script>
+ <script>
 
     $(document).ready(function(){
         // Add smooth scrolling to all links in navbar + footer link
@@ -375,7 +337,8 @@
             });
         });
     })
-</script>
-
+ </script>
+    <!--contact form-->
+    <script type="text/javascript" src="contact.js"></script>
 </body>
 </html>
