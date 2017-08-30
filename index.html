@@ -82,6 +82,9 @@
                 <h3>Front End UI Developer , Freelancer</h3>
             </div>
         </div>
+        <div class="slider-img">
+            <img src="img/mobile-profile.JPG" class="img-responsive">
+        </div>
     </div>
  </div>
 </section>
@@ -100,14 +103,10 @@
              <p> </p>
          </div>
          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="about-me">
-             <p> I am Sandeep Panwar,I am capable inside the utilizations of Javascript/UI Developer,
-                 with top to bottom data in HTML,CSS and local Javascript.
-                 I absorb new information basically with respect to the most up to date net innovations.
-                 I really have with achievement made sensible a la mode UIs and generation prepared net advancement codes.</p>
-
-             <p>I utilize my unmistakable data and creative nature to style face and back advances with exactness and bent making dynamic
-                 cross-program encounters.Long client maintenance and engagement have consistently been the principal center of my work.</p>
-
+             <p>I am Sandeep Panwar .I am good in Javascript/UI Developement with top to bottom data in HTML,CSS and local Javascript.I follow latest Information & innovation trends.
+                 I have achievements in making sensible la mode UIs and generation & preparation net advancement codes.</p>
+             <p>I utilized my creative nature, approach with clear exactness made dynamic cross-program encounters.Basically,
+                 long period of maintenance and engagement with client have consistently been the principal center of my work.</p>
          </div>
      </div>  
      <!--<div class="row">-->
@@ -132,20 +131,19 @@
                 <div class="animated fadeOutUp list_resume">
                     <h3>2008 - 2010</h3>
                     <h1>High School From Stat Board</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                    <p>I have done my high school from Uttarakhand state bord in 2010.When i think about my high school experience,
+                        there are many things that come to mind. Some of them are: good memories, bad memories, mistakes, lessons, happiness, heartbreak, misfortune, joy, drama, and most importantly, fun. High School to me seemed like it past by really fast, almost too fast sometimes.
+                        I learned many valuable life lessons as well as made life long friends.</p>
                 </div>
                 <div class="animated fadeOutUp list_resume">
                     <h3>2010 - 2012</h3>
                     <h1>Intermediate  From Stat Board</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                    <p>I have done my high school from Uttarakhand state bord in 2010.</p>
                 </div>
                 <div class="animated fadeOutUp list_resume">
-                    <h3>2012 - 2014</h3>
+                    <h3>2012 - 2016</h3>
                     <h1>Bachelor in Technology in Computer Science and Engineering</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                    <p>In 2016,I </p>
                 </div>
             </div>
         </div>
@@ -218,18 +216,11 @@
 </div>
 
 
-
-
-
-
-
-
-
 <!-- Add Google Maps -->
 <div id="googleMap" style="height:400px;width:100%;">
     <script>
         var map;
-        function initMap() {
+        function myMap() {
             map = new google.maps.Map(document.getElementById('googleMap'), {
                 center: {lat: 28.708057, lng: 77.117954},
                 zoom: 12
@@ -241,14 +232,15 @@
                 icon: 'img/map-marker.png',
                 animation: google.maps.Animation.BOUNCE,
                 draggable:true
-
             });
         }
     </script>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoMMJr0-FuVH--Yzb4L5w9PQt9t4U_LJ4&callback=myMap"></script>
+    <!--<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>-->
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"></script>-->
 </div>
  <!--end of google map-->
+
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
     <h2 class="text-center">CONTACT</h2>
@@ -259,7 +251,9 @@
             <p><span class="glyphicon glyphicon-phone"></span> +91 9536327803</p>
             <p><span class="glyphicon glyphicon-envelope"></span> sandeep.panwar0094@gmail.com</p>
         </div>
-        <div class="col-sm-7 slideanim">
+        <?php include('form_process.php'); ?>
+        <form id="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+         <div class="col-sm-7 slideanim">
             <div class="row">
                 <div class="col-sm-6 form-group">
                     <input class="form-control" id="name" name="name" placeholder="Type Your Name...." type="text" required>
@@ -271,11 +265,39 @@
             <textarea class="form-control" id="comments" name="comments" placeholder="Write Your Comment....." rows="5"></textarea><br>
             <div class="row">
                 <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                    <button class="btn btn-default pull-right" type="submit" id="mybtn">SEND</button>
                 </div>
             </div>
-        </div>
+         </div>
+        </form>
     </div>
+</div>
+<!--javascript for form submition-->
+<div>
+    <script>
+        function _(id){ return document.getElementById(id); }
+        function submitForm(){
+            _("mybtn").disabled = true;
+            _("status").innerHTML = 'please wait ...';
+            var formdata = new FormData();
+            formdata.append( "name", _("name").value );
+            formdata.append( "email", _("email").value );
+            formdata.append( "comments", _("comments").value );
+            var ajax = new XMLHttpRequest();
+            ajax.open( "POST", "form.php" );
+            ajax.onreadystatechange = function() {
+                if(ajax.readyState == 4 && ajax.status == 200) {
+                    if(ajax.responseText == "success"){
+                        _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+                    } else {
+                        _("status").innerHTML = ajax.responseText;
+                        _("mybtn").disabled = false;
+                    }
+                }
+            }
+            ajax.send( formdata );
+        }
+    </script>
 </div>
 
 
@@ -318,6 +340,7 @@
 </footer>
 
 <script>
+
     $(document).ready(function(){
         // Add smooth scrolling to all links in navbar + footer link
         $(".navbar a, footer a[href='#home']").on('click', function(event) {

@@ -5,6 +5,7 @@ body{
     background-color: #fff;
     color: #000;
     font-family: lato;
+
 }
 /*navbar-menu items*/
 .navbar-nav>li>a {
@@ -81,6 +82,9 @@ nav.navbar.navbar-fixed-top {
 /*}*/
 
 /*about-me-section*/
+.slider-img img{
+    display: none;
+}
 .about-me-section {
     background: #6cf1fa;
     background-image: url("../img/profile.jpg");
@@ -133,7 +137,7 @@ nav.navbar.navbar-fixed-top {
     border: 3px solid #fff;
     border-radius: 0;
     margin-top: 207px;
-    margin-left: -170px;
+    margin-left: -280px;
     font-size: 25px;
     font-weight: 700;
 }
@@ -226,6 +230,25 @@ nav.navbar.navbar-fixed-top {
     /*background-image: url("../img/contact.jpg");*/
     background-repeat: no-repeat;
     background-size: 1600px auto;
+}
+.btn-default {
+font-size: 25px;
+border: 2px solid #000;
+margin-right: 585px;
+margin-bottom: 10px;
+padding: 10px 50px 10px 50px;
+border-radius: inherit;
+background-color: #fff;
+}
+.btn-default:hover{
+    font-size: 25px;
+    border: 2px solid #000;
+    margin-right: 585px;
+    margin-bottom: 10px;
+    padding: 10px 50px 10px 50px;
+    border-radius: inherit;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.18);
 }
 .slider{
     background-image: url("../img/intro.jpeg");
