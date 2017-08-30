@@ -43,6 +43,7 @@
 
 
 @media only screen and (max-width: 759px) {
+    
     a.navbar-brand img {
         position: absolute;
         margin-top: -12px;
@@ -87,6 +88,9 @@
 
 
 @media only screen and (max-width: 690px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
     .slider-img img{
         display: inline;
         width: 200px;
@@ -200,6 +204,9 @@
 
 
 @media screen and (max-width: 600px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
     .slider-img img{
         display: inline;
         width: 200px;
@@ -326,6 +333,9 @@
 
 
 @media screen and (max-width: 500px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
     .slider-img img{
         display: inline;
         width: 200px;
@@ -410,6 +420,9 @@
 
 
 @media screen and (max-width: 400px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
     .slider-img img{
         display: inline;
         width: 200px;
