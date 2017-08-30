@@ -16,7 +16,7 @@
                 $('#message').hide();
 
                 $('#submit')
-                    .before('<img src="images/ajax-loader.gif" class="contact-loader" />')
+                    .before('<img src="img/ajax-loader.gif" class="contact-loader" />')
                     .attr('disabled','disabled');
 
 
@@ -30,7 +30,7 @@
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "http://formspree.io/sandeep.panwar0094@gmail.com",
+                    url: "https://formspree.io/sandeep.panwar0094@gmail.com",
                     data: $form.serialize(),
                     dataType: "json",
                     success: function (data) {
