@@ -43,6 +43,7 @@
 
 
 @media only screen and (max-width: 759px) {
+    
     a.navbar-brand img {
         position: absolute;
         margin-top: -12px;
@@ -87,6 +88,18 @@
 
 
 @media only screen and (max-width: 690px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
+    .slider-img img{
+        display: inline;
+        width: 200px;
+        height: 200px;
+        border-radius: 123px;
+        border: 10px solid #fff;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
     a.navbar-brand img {
         max-width: 50%;
         margin-top: -15px;
@@ -136,7 +149,7 @@
         font-size: 22px;
     }
     .slider-contant h2 {
-        font-size: 48px;
+        font-size: 57px;
         /* margin-top: 50px; */
         color: #fff;
         font-weight: 900;
@@ -178,10 +191,31 @@
         height: 296px;
         width: 344px;
     }
+    .btn-default {
+        font-size: 25px;
+        background-color: #fff;
+        border: 3px solid #000;
+        margin-right: 123px;
+        margin-bottom: 10px;
+        padding: 10px 50px 10px 50px;
+        border-radius: inherit;
+    }
 }
 
 
 @media screen and (max-width: 600px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
+    .slider-img img{
+        display: inline;
+        width: 200px;
+        height: 200px;
+        border-radius: 123px;
+        border: 10px solid #fff;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
     a.navbar-brand img {
         max-width: 60%;
         margin-top: -13px;
@@ -203,10 +237,10 @@
         height: 700px;
     }
     section#about p {
-        font-family: "loto",cursive;
+        /*font-family: "loto",cursive;*/
         margin: 0 0 10px;
         line-height: 30px;
-        color: #000;
+        /*color: #000;*/
     }
     #bg-img {
         background-image: url(../img/bg-img.jpg);
@@ -244,14 +278,14 @@
         font-size: 22px;
     }
     .slider-contant h2 {
-        font-size: 48px;
+        font-size: 57px;
         /* margin-top: 50px; */
         color: #fff;
         font-weight: 900;
     }
     .slider-contant h1 {
-        font-size: 100px;
-        margin-top: 202px;
+        font-size: 70px;
+        margin-top: 156px;
         color: #fff;
         font-weight: 900;
     }
@@ -286,10 +320,31 @@
     .resume {
         margin-top: 0px;
     }
+    .btn-default {
+        font-size: 25px;
+        background-color: #fff;
+        border: 3px solid #000;
+        margin-right: 123px;
+        margin-bottom: 10px;
+        padding: 10px 50px 10px 50px;
+        border-radius: inherit;
+    }
 }
 
 
 @media screen and (max-width: 500px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
+    .slider-img img{
+        display: inline;
+        width: 200px;
+        height: 200px;
+        border-radius: 123px;
+        border: 10px solid #fff;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
     #bg-img {
         background-image: url(../img/bg-img.jpg);
         background-repeat: no-repeat;
@@ -302,14 +357,14 @@
         font-size: 22px;
     }
     .slider-contant h2 {
-        font-size: 48px;
+        font-size: 57px;
         /* margin-top: 50px; */
         color: #fff;
         font-weight: 900;
     }
     .slider-contant h1 {
-        font-size: 100px;
-        margin-top: 202px;
+        font-size: 70px;
+        margin-top: 156px;
         color: #fff;
         font-weight: 900;
     }
@@ -350,12 +405,33 @@
     .resume {
         margin-top: 0px;
     }
+    .btn-default {
+        font-size: 25px;
+        background-color: #fff;
+        border: 3px solid #000;
+        margin-right: 123px;
+        margin-bottom: 10px;
+        padding: 10px 50px 10px 50px;
+        border-radius: inherit;
+    }
 
 
 }
 
 
 @media screen and (max-width: 400px) {
+    .navbar-nav>li>a{
+        background: #77dace;
+    }
+    .slider-img img{
+        display: inline;
+        width: 200px;
+        height: 200px;
+        border-radius: 123px;
+        border: 10px solid #fff;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
     a.navbar-brand img {
         max-width: 67%;
         margin-top: -5px;
@@ -382,14 +458,14 @@
         font-size: 22px;
     }
     .slider-contant h2 {
-        font-size: 48px;
+        font-size: 57px;
         /* margin-top: 50px; */
         color: #fff;
         font-weight: 900;
     }
     .slider-contant h1 {
-        font-size: 100px;
-        margin-top: 202px;
+        font-size: 70px;
+        margin-top: 156px;
         color: #fff;
         font-weight: 900;
     }
@@ -429,6 +505,15 @@
     }
     .resume {
         margin-top: 0px;
+    }
+    .btn-default {
+        font-size: 25px;
+        background-color: #fff;
+        border: 3px solid #000;
+        margin-right: 123px;
+        margin-bottom: 10px;
+        padding: 10px 50px 10px 50px;
+        border-radius: inherit;
     }
 
 }
