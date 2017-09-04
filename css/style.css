@@ -146,6 +146,13 @@ nav.navbar.navbar-fixed-top {
     border: 3px solid #ed0f0f;
     cursor: pointer;
 }
+#call-to-action-btn button a {
+    color: #fff;
+}
+#call-to-action-btn button a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 /*resume*/
 .resume{
     margin-top: -120px;
