@@ -262,12 +262,12 @@ background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 723px;
     /*filter:blur(2px);*/
 }
 .slider-contant h1{
     font-size: 100px;
-    margin-top: 150px;
+    margin-top: 200px;
     color: #fff;
     font-weight: 900;
 }
