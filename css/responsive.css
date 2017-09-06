@@ -362,6 +362,7 @@
         font-weight: 900;
     }
     .slider-contant h1 {
+        text-align: center;
         font-size: 70px;
         margin-top: 156px;
         color: #fff;
@@ -447,7 +448,7 @@
         height: 200px;
         border-radius: 123px;
         border: 10px solid #fff;
-        margin-left: 46px;
+        margin-left: 47px;
         margin-top: 15px;
     }
     a.navbar-brand img {
@@ -485,7 +486,7 @@
         font-size: 22px;
     }
     .slider-contant h2 {
-        font-size: 57px;
+        font-size: 43px;
         /* margin-top: 50px; */
         color: #fff;
         font-weight: 900;
