@@ -250,7 +250,7 @@ background-color: #fff;
 .btn-default:hover{
     font-size: 25px;
     border: 2px solid #000;
-    margin-right: 585px;
+/*     margin-right: 585px; */
     margin-bottom: 10px;
     padding: 10px 50px 10px 50px;
     border-radius: inherit;
