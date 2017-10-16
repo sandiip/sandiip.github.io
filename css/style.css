@@ -219,7 +219,7 @@ nav.navbar.navbar-fixed-top {
     position: relative;
     margin-left: -48px;
 }
-.list_resume:after {
+/* .list_resume:after {
     width: 20px;
     height: 20px;
     display: block;
@@ -232,7 +232,7 @@ nav.navbar.navbar-fixed-top {
     -o-border-radius: 10px;
     border-radius: 10px;
     content: '';
-}
+} */
 
 /*portfolio*/
 #portfolio{
