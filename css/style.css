@@ -207,8 +207,17 @@ nav.navbar.navbar-fixed-top {
     content: '';
 }
 .list_resume:before {
-    border: 2px solid #389c90;
+    border: 2.5px solid #389c90;
     background: #fff;
+    position: relative;
+    margin-left: -48px;
+    top: 0;
+}
+.list_resume:after {
+    border: 2.5px solid #389c90;
+    background: #fff;
+    position: relative;
+    margin-left: -48px;
 }
 .list_resume:after {
     width: 20px;
