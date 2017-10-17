@@ -25,9 +25,8 @@ body{
 nav.navbar.navbar-fixed-top {
     background: linear-gradient(#389C90,#3b9c90);
     height: 80px;
-    /*border-bottom: #e8958d;*/
-    /*box-shadow: 0 2px 1px 0 #888888;*/
-}
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   }
 .navbar-toggle {
     position: relative;
     float: right;
