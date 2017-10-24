@@ -242,6 +242,7 @@ nav.navbar.navbar-fixed-top {
 #googleMap {
     border: 9px solid transparent;
     border-image: url(https://www.w3schools.com/cssref/border.png)30 stretch;
+    margin-top:90px;
 }  
     
 
