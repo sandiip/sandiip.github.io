@@ -239,7 +239,11 @@ nav.navbar.navbar-fixed-top {
     /*background-color: palevioletred;*/
     /*height: 300px;*/
 }
-
+#googleMap {
+    border: 9px solid transparent;
+    border-image: url(https://www.w3schools.com/cssref/border.png)30 stretch;
+}  
+    
 
 /*contact*/
 #contact{
