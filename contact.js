@@ -30,7 +30,7 @@
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "https://formspree.io/sandeep.panwar0094@gmail.com",
+                    url: "https://formspree.io/unblock/sandeep.panwar0094@gmail.com",
                     data: $form.serialize(),
                     dataType: "json",
                     success: function (data) {
@@ -43,7 +43,7 @@
                         $('#cform')[0].reset();
                     },
                     error: function () {
-                        document.getElementById('message').innerHTML = 'There is some problem, please try again !!';
+                        document.getElementById('message').innerHTML = 'There is some problem,may be you did not fill all details correct or some other issu. please try again !!';
                     }
                 });
 
