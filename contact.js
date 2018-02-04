@@ -30,7 +30,7 @@
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "https://formspree.io/unblock/sandeep.panwar0094@gmail.com",
+                    url: "https://formspree.io/sandeep.panwar0094@gmail.com",
                     data: $form.serialize(),
                     dataType: "json",
                     success: function (data) {
