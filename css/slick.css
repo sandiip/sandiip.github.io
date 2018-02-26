@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Atomic Developer | Atomic Developer well known web designers of Siliguri</title>
+    <meta name="description" content="Hi We are Atomic Developer well known web designers of Siliguri. We can assure all of you that if your business depends on technology then rely on us as we provide the best quality to all our customers.We deliver high quality, cost effective, reliable and result oriented web and software solutions for your business bringing in maximum return on your investment in shortest possible time.">
+    <meta name="rating" content="safe for kids">
+    <meta name="keywords" content="Website Designing in Siliguri, Web Design Company in Siliguri, Software Company in Siliguri, Atomic Developer,Deeep Saha, Web Hosting in Siliguri,SEO, Search Engine Optimizationn, Graphics Designing,Atomic
+	" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="21 days" />
+    <meta name="creator" content="Deep Saha,Designer,sahadeep125@gmail.com" />
+    <meta name="publisher" content="Web Designer, atomicdeveloper.com" />
+    <meta name='subject' content='Web Design'>
+    <meta name='copyright' content='Deep saha'>
+    <meta name='language' content='English'>
+    <meta name='Classification' content='Business'>
+    <meta name='author' content='Deep saha, sahadeep125@gmail.com'>
+    <meta name='reply-to' content='sahadeep125@gmail.com'>
+
+    <meta name='rating' content='General'>
+    <meta name='target' content='all'>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='MobileOptimized' content='320'>
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Atomic Developer core CSS file -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body class="no-trans">
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+    <!-- header start -->
+    <!-- ================ -->
+    <header class="header fixed clearfix navbar navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <!-- header-left start -->
+                    <!-- ================ -->
+                    <div class="header-left clearfix">
+
+                        <!-- logo -->
+                        <div class="logo smooth-scroll">
+                            <a href="index.php"><img id="logo" src="images/logo.png" alt="Atomic Developer"></a>
+                        </div>
+                    </div>
+                    <!-- header-left end -->
+
+                </div>
+                <div class="col-md-8">
+
+                    <!-- header-right start -->
+                    <!-- ================ -->
+                    <div class="header-right clearfix">
+
+                        <!-- main-navigation start -->
+                        <!-- ================ -->
+                        <div class="main-navigation animated">
+
+                            <!-- navbar start -->
+                            <!-- ================ -->
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+
+                                    <!-- Toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="services.php">Services</a></li>
+                                            <li><a href="portfolio">Portfolio</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </nav>
+                            <!-- navbar end -->
+
+                        </div>
+                        <!-- main-navigation end -->
+
+                    </div>
+                    <!-- header-right end -->
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+	
+	   
+
+<!-- banner start -->
+<!-- ================ -->
+
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+
+        <article style="background:#2497e8;" class="item active">
+            <div class="row">
+                <div class="col-sm-6 carosel_caption">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s">What exactly is a<br /> <strong>Pixel Perfect</strong> <br /> Web Design</h1>
+                    <p class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet elitr.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="wow fadeInRight" data-wow-duration="1s" src="images/img-website.png" alt="" />
+                </div>
+
+            </div>
+
+        </article>
+        <article style="background:#d8d3d9;" class="item ">
+            <div class="row">
+                <div class="col-sm-6 carosel_caption">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s"><strong>Creativity </strong>is <br /> allowing yourself to <br /> make mistakes</h1>
+                    <p class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                </div>
+                <div class="col-sm-6 create_image">
+                    <img class="wow fadeInRight" data-wow-duration="1s" src="images/creative.png" alt="creative" />
+                </div>
+
+            </div>
+        </article>
+        <article style="background:#f56f1e;" class="item">
+            <div class="row">
+                <div class="col-sm-6 carosel_caption">
+                    <h1 class="wow fadeInUp" data-wow-duration="1s">Create <br /> something magical with <br /><strong>Responsive </strong> design</h1>
+                    <p class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="wow fadeInRight" data-wow-duration="1s" src="images/responsive.png" alt="" />
+                </div>
+
+            </div>
+        </article>
+    </div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Controls -->
+    <div class="carousel-controls">
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-backward"></span>
+
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-forward"></span>
+
+        </a>
+    </div>
+</div>
+
+<!-- banner end -->
+
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section clearfix ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="about" class="title text-center  wow fadeInUp" data-wow-duration="1s">About <span>Atomic Developer</span></h1>
+                <p class="lead text-center wow fadeInUp" data-wow-duration="1s">Welcome to Atomic Developer. A complete startup Website solution</p>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class=" wow fadeInUp" data-wow-duration="1s" src="images/section-image-1.png" alt="main">
+                        <div class="space"></div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>Hi We are the well known web designers of Siliguri who work at Atomic Developer.We can assure all of yuo that if your business depends on technology then rely on us as we provide the best quality to all our customers.We deliver high quality, cost effective, reliable and result oriented web and software solutions for your business bringing in maximum return on your investment in shortest possible time.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Communicate with Clients</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Start Working on Project</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Completed the Project</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> 24/7 Support</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section translucent-bg bg-image-1 blue">
+    <div class="container ">
+        <h1 id="services" class="text-center title wow fadeInUp" data-wow-duration="1s">Atomic Developer Services</h1>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="media wow fadeInUp" data-wow-duration="1s">
+                    <div class="media-body text-right">
+                        <h4 class="media-heading">Web Developement</h4>
+                        <p>Web development is a notable service among the services we offer. We provide web development services with the help of PHP, Mysql and Database.   </p>
+                    </div>
+                    <div class="media-right">
+                        <i class="fa fa-code"></i>
+                    </div>
+                </div>
+                <div class="media wow fadeInUp" data-wow-duration="1.2s">
+                    <div class="media-body text-right">
+                        <h4 class="media-heading">Web Design</h4>
+                        <p>We design each and evry website accurately with immense care. Each and evry design we create are unique.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                </div>
+                <div class="media  wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="media-body text-right">
+                        <h4 class="media-heading">Graphic Design</h4>
+                        <p>We make various kinds of Logos of websites, Visiting Cards, Banners with the help of Adobe Illustator, Corel Draw and Photoshop.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="fa fa-picture-o"></i>
+                    </div>
+                </div>
+                <div class="media  wow fadeInUp" data-wow-duration="1.8s">
+                    <div class="media-body text-right">
+                        <h4 class="media-heading">SEO</h4>
+                        <p>Through SEO friendly coding and with the help of SEO tools we provide Search Engine Optimizition Services.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="space visible-xs"></div>
+            <div class="col-sm-6">
+                <div class="media  wow fadeInUp" data-wow-duration="1s">
+                    <div class="media-left">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ecommerce Website</h4>
+                        <p>E-commerce is a transaction of buying or selling online. We make every kind of Ecommerce Website with the help of Wordpress.</p>
+                    </div>
+                </div>
+                <div class="media  wow fadeInUp" data-wow-duration="1.2s">
+                    <div class="media-left">
+                        <i class="fa fa-database"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Web Hosting</h4>
+                        <p>Web hosting is a service that allows organizations and individuals to post a website or web page onto the Internet.</p>
+                    </div>
+                </div>
+                <div class="media wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="media-left">
+                        <i class="fa fa-file-powerpoint-o"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">PSD to HTML</h4>
+                        <p>We can convart any kind of PSD file into Html Website with pixel purfect Design.</p>
+                    </div>
+                </div>
+                <div class="media wow fadeInUp" data-wow-duration="1.8s">
+                    <div class="media-left">
+                        <i class="fa fa-camera-retro"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Photography</h4>
+                        <p>We offer Portrait photography, Corporate portrait, Event photography, Beauty and fashion photography etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    </div>
+</div>
+<!-- section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="default-bg space blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="text-center wow fadeInUp" data-wow-duration="1s">Let's Work Together!</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section">
+    <div class="container">
+        <h1 class="text-center title" id="portfolio">Portfolio</h1>
+        <div class="separator"></div>
+        <p class="lead text-center  wow fadeInUp" data-wow-duration="1.5s">Whatever we have done in this three years everything is given in detail below.If you want to check it then go through the following details..</p>
+        <br>
+		   <div class="row ">
+            <div class="col-md-12">
+
+                <!-- isotope filters start -->
+                <div class="filters text-center">
+                    <ul class="nav nav-pills wow fadeInUp" data-wow-duration="1.8s">
+                        <li class="active"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".web-design">Web design</a></li>
+                        <li><a href="#" data-filter=".app-development">Wordpress Theme</a></li>
+                        <li><a href="#" data-filter=".site-building">Theme Forest</a></li>
+                    </ul>
+                </div>
+                <!-- isotope filters end -->
+
+                <!-- portfolio items start -->
+                <div class="isotope-container row grid-space-20">
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-1.jpg" alt="main">
+                                <a class="overlay" href="http://islls.in">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="http://islls.in">ISLLS</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item app-development">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-2.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>App Development</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-3.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item site-building">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-4.jpg" alt="portfolio">
+                                <a class="overlay" href="https://themeforest.net/item/deepersonal-one-page-template/20053351?s_rank=1">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Buy now THis Theme</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="https://themeforest.net/item/deepersonal-one-page-template/20053351?s_rank=1">Buy Now</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item app-development">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-5.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>App Development</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-6.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item site-building">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-7.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Site Building</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-8.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-9.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item site-building">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-10.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Site Building</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-11.jpg" alt="portfolio">
+                                <a class="overlay" href="#">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="#">Project Title</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item app-development">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/portfolio-12.jpg" alt="portfolio">
+                                <a class="overlay" href="">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>App Development</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" href="">Project Title</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- portfolio items end -->
+
+            </div>
+        </div>    </div>
+</div>
+<!-- section end -->
+
+
+
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section translucent-bg bg-image-2 pb-clear">
+    <div class="container ">
+        <h1 id="clients" class="title text-center wow fadeInUp" data-wow-duration="1s">Why Choose Us</h1>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left wow fadeInUp" data-wow-duration="1.2s">
+                        <img src="images/testimonial-1.png" alt="testimonial">
+                    </div>
+                    <div class="media-body wow fadeInUp" data-wow-duration="1.2s">
+                        <h3 class="media-heading">Responsive Design</h3>
+                        <blockquote>
+                            <p>Design your site to help make it easier for your customer to complete their most common tasks: from task conception, to visiting your site, to task completion.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left  wow fadeInUp" data-wow-duration="1.2s">
+                        <img src="images/testimonial-4.png" alt="testimonial">
+                    </div>
+                    <div class="media-body  wow fadeInUp" data-wow-duration="1.2s">
+                        <h3 class="media-heading">Clean Code</h3>
+                        <blockquote>
+                            <p>
+                                Thr code we use in our web site is totally clean and each code is well commented.The customers can understand the code and comment without any hesitation.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left  wow fadeInUp" data-wow-duration="1.2s">
+                        <img src="images/testimonial-6.png" alt="testimonial">
+                    </div>
+                    <div class="media-body  wow fadeInUp" data-wow-duration="1.2s">
+                        <h3 class="media-heading">Pixel Perfect</h3>
+                        <blockquote>
+                            <p>The best quality we possess is that we are efficient in pixel perfect.We create everything perfectly so that it looks perfect in every devices whether its a mobile or a computer other device.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left  wow fadeInUp" data-wow-duration="2s">
+                        <img src="images/testimonial-2.png" alt="testimonial">
+                    </div>
+                    <div class="media-body wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="media-heading">Best Analytics</h3>
+                        <blockquote>
+                            <p>We are the best analyics For any webpage. And We are SEO friendly Designer or devloper.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left wow fadeInUp" data-wow-duration="2s">
+                        <img src="images/testimonial-3.png" alt="testimonial">
+                    </div>
+                    <div class="media-body wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="media-heading">Secure Your Data</h3>
+                        <blockquote>
+                            <p>The Data you provide to us will be secured.the customers can be reliable on us in this matter.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left wow fadeInUp" data-wow-duration="2s">
+                        <img src="images/testimonial-5.png" alt="testimonial">
+                    </div>
+                    <div class="media-body wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="media-heading">24/7 Support</h3>
+                        <blockquote>
+                            <p>We like to work 24 hours and we want to support customers again and again whenever they are in need.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section start -->
+    <!-- ================ -->
+    <div class="translucent-bg blue wow fadeInUp" data-wow-duration="1s">
+        <div class="container">
+            <div class="list-horizontal">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-1.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-2.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-3.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-4.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-5.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/client-6.png" alt="client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+</div>
+<!-- section end -->
+
+<!-- Our team Section -->
+<section id="team" class="team content-section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h2 class="text-center title wow fadeInUp" data-wow-duration="1s" id="my-team">Our Team</h2>
+                <div class="separator"></div>
+                <p class="lead text-center wow fadeInUp" data-wow-duration="1s">Here we are members of Atomic Developer.We are the personages who can bring smile on your faces.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="1s">
+                            <figure>
+                                <img src="images/deep.jpg" alt="" class="img-responsive">
+                                <figcaption>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/techindiacenter"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                        <li><a href="https://twitter.com/Deepsaha125"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/deep-saha-1585a3128/?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h4>Deep Saha</h4>
+                            <p>Web developer</p>
+                        </div>
+                        <!-- /.team-member-->
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="1s">
+                            <figure>
+                                <img src="images/dipak.jpg" alt="" class="img-responsive">
+                                <figcaption>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/dipak.barman.378"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                        <li><a href="https://twitter.com/dipakbarman080"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/dipak-barman-97a162143/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h4>Dipak Barman</h4>
+                            <p>WP Developer</p>
+                        </div>
+                        <!-- /.team-member-->
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3">
+                        <div class="team-member  wow fadeInUp" data-wow-duration="1s">
+                            <figure>
+                                <img src="images/pankaj.jpg" alt="" class="img-responsive">
+                                <figcaption>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/pankaj.talukdar.35728"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                        <li><a href="https://www.facebook.com/pankaj.talukdar.35728"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                        <li><a href="https://www.facebook.com/pankaj.talukdar.35728"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h4>Pankaj Talukdar</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                        <!-- /.team-member-->
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="1s">
+                            <figure>
+                                <img src="images/dipankar.jpg" alt="" class="img-responsive">
+                                <figcaption>
+                                    <p></p>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100016991105669"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/dipankar-debnath-02752b143/"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                        <li><a href="https://twitter.com/dipankar224"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h4>Dipankar Debnath</h4>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.our-team -->
+	
+	
+	
+    <!-- footer start -->
+    <!-- ================ -->
+
+    <footer id="Abdev_main_footer">
+
+        <div id="footer_columns">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 clearfix">
+                        <div id="text-2" class="widget widget_text">
+                            <h6 class="footer-widget-heading">About Atomic Developer</h6>
+                            <div class="textwidget">Hi We are the well known web designers of Siliguri who work at Atomic Developer.We can assure all of yuo that if your business depends on technology then rely on us as we provide the best quality to all our customers.We deliver high quality, cost effective, reliable and result oriented web and software solutions for your business bringing in maximum return on your investment in shortest possible time.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 clearfix">
+                        <div id="rpwe_widget-4" class="widget rpwe_widget recent-posts-extended">
+                            <h6 class="footer-widget-heading">Useful Links</h6>
+                            <div class="rpwe-block ">
+                                <ul class="rpwe-ul">
+                                    <li class="active"><a href="index.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="services.php">Services</a></li>
+                                    <li><a href="portfolio.php">Portfolio</a></li>
+                                    <li><a href="clients.php">Why Us</a></li>
+                                    <li><a href="team.php">Team</a></li>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-sm-3 clearfix">
+                        <div id="contact-info-2" class="widget contact-info">
+                            <h6 class="footer-widget-heading">Get in touch</h6>
+                            <div class="contact_info_widget">
+                                <p><i class="fa fa-envelope-o"></i><a href="mailto:sahadeep125@gmail.com">infoatomicdeveloper@gmail.com</a></p>
+                                <p><i class="fa fa-phone"></i>+91 8906609532</p>
+                                <p><i class="fa fa-phone"></i>+91 9749558756</p>
+                                <p><i class="fa fa-globe"></i><a href="#">Siliguri,West Bengal, India</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 clearfix">
+                        <div id="text-3" class="widget widget_text">
+                            <h6 class="footer-widget-heading">Join Us</h6>
+                            <div class="textwidget">
+                                <p>We welcome all of you to join us if you have even subtle knowledge about web design and development.If you are willing to join us then click on the contact us button.</p>
+
+
+                                <div class="ABss_form_wrapper ">
+                                    <form id="ABss_form_1" class="ABss_form ABss_inline_form" action="footermail.php" method="post">
+                                        <p><input name="footeremail" class="ABss_subscriber_email" placeholder="Enter Your Email">
+                                        <button class="ABss_subscriber_widget_submit submit" id="form-submit" type="submit" value="Submit"><i class="fa fa-chevron-right"></i></button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 footer_copyright">
+                        &copy; 2017 Atomic Developer | Designed by Atomic Developer </div>
+                    <div class="col-sm-2 aligncenter">
+                        <a href="#" id="jomelle_back_to_top" title="Scroll to top"></a>
+                    </div>
+                    <div class="col-sm-5 footer_social">
+
+                        <a href="https://www.facebook.com/Atomic-Developer-1655126994794765/" class="top_social_icon dnd_socialicon_facebook dnd_tooltip" title="Follow us on Facebook" data-gravity="s" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/DeveloperAtomic" class="top_social_icon dnd_socialicon_twitter dnd_tooltip" title="Follow us on Twitter" data-gravity="s" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://plus.google.com/u/0/111939984202060701644" class="top_social_icon dnd_socialicon_googleplus dnd_tooltip" title="Follow us on Googleplus" data-gravity="s" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://twitter.com/DeveloperAtomic" class="top_social_icon dnd_socialicon_linkedin dnd_tooltip" title="Follow us on Linkedin" data-gravity="s" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/DeveloperAtomic" class="top_social_icon dnd_socialicon_instagram dnd_tooltip" title="Follow us on Instagram" data-gravity="s" target="_blank"><i class="fa fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-100575245-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>	
+		
+    <!-- Jquery and Bootstap core js files -->
+    <script type="text/javascript" src="plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="plugins/modernizr.js"></script>
+
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Backstretch javascript -->
+    <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+    <!-- Appear javascript -->
+    <script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+    <!-- Initialization of Plugins -->
+    <script type="text/javascript" src="js/template.js"></script>
+
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,570 +1,138 @@
-
-
-@media only screen and (max-width: 1160px) {
-    a.navbar-brand img {
-        max-width: 67%;
-        margin-top: -5px;
-    }
-
-}
-
-
-@media only screen and (max-width: 985px) {
-    a.navbar-brand img {
-        max-width: 67%;
-        margin-top: -5px;
-    }
-
-    }
-
-
-
-@media only screen and (max-width: 960px) {
-    a.navbar-brand img {
-        max-width: 67%;
-        margin-top: -5px;
+@media (max-width: 990px) {
+    .chating_txt::after,
+    .hero_item::before,
+    .hero_item::after,
+    .rule_right:after {
+        display: none;
     }
 }
 
-
-@media only screen and (max-width: 920px) {
-
-}
-
-
-@media only screen and (max-width: 850px) {
-    a.navbar-brand img {
-        position: absolute;
-        margin-top: -20px;
-        width: 50%;
+@media (max-width: 767px) {
+    .section-padding {
+        padding: 60px 0
     }
-
-}
-
-
-@media only screen and (max-width: 759px) {
-    
-    a.navbar-brand img {
-        position: absolute;
-        margin-top: -12px;
-        width: 70%;
+    .all-button {
+        padding: 10px 35px;
     }
-    .heading h1 {
-        font-size: 31px;
-        font-weight: 700;
+    .navbar-default .navbar-toggle {
+        background: none;
+        margin-top: 25px;
+        border: none;
     }
-    #bg-img {
-        background-image: url(../img/bg-img.jpg);
-        background-repeat: no-repeat;
-        height: 484px;
-        background-size: 847px auto;
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background: none;
     }
-    #call-to-action h2 {
-        color: #fff;
-        font-family: lato;
-        text-transform: uppercase;
-        margin-top: 110px;
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #18fefb;
+    }
+    .navbar-default .navbar-collapse {
+        border: none;
+        background: #111;
+        margin-top: 10px;
+        text-align: center;
+    }
+    /*-- Header content--*/
+    .middil_content_left {
+        padding-right: 0px;
+    }
+    .middil_content_left h1 {
+        font-size: 105px;
+    }
+    .middil_content_right::before {
+        height: 80%;
+        width: 8px;
+    }
+    .middil_content_right h2 {
+        font-size: 30px;
+        line-height: 0.9;
+    }
+    .middil_content_right h4 {
         font-size: 20px;
-
+        line-height: 1.7;
     }
-    #call-to-action h4 {
-        color: #fff;
-        font-family: lato;
-        font-size: 10px;
-         margin-left: 0;
-    }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 135px;
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-}
-
-
-@media only screen and (max-width: 690px) {
-    .navbar-nav>li>a{
-        background: #77dace;
-    }
-    .slider-img img{
-        display: inline;
-        width: 200px;
-        height: 200px;
-        border-radius: 123px;
-        border: 10px solid #fff;
-        margin-left: 100px;
-        margin-top: 30px;
-    }
-    a.navbar-brand img {
-        max-width: 50%;
-        margin-top: -15px;
-    }
-    .heading h1 {
-        font-size: 31px;
-        font-weight: 700;
-    }
-    .heading h3 {
-        font-size: 22px;
-        line-height: 4px;
-        margin-bottom: 28px;
-    }
-    #bg-img {
-        background-image: url(../img/bg-img.jpg);
-        background-repeat: no-repeat;
-        height: 310px;
-        background-size: 847px auto;
-    }
-    #call-to-action h2 {
-        color: #fff;
-        font-family: lato;
-        text-transform: uppercase;
-        margin-top: 110px;
+    .middil_content_right span {
         font-size: 20px;
-         margin-left: 0;
     }
-    #call-to-action h4 {
-        color: #fff;
-        font-family: lato;
-        font-size: 10px;
-         margin-left: 0;
+    /*-- End header content--*/
+    .chating_txt h2 {
+        font-size: 40px;
     }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 135px;
-        font-size: 25px;
-        font-weight: 700;
+    .hero_img,
+    .skill_items,
+    .number_box,
+    .post,
+    .address_box {
+        margin-bottom: 50px;
     }
-    .slider-contant h3 {
-        color: #fff;
-        font-weight: bold;
-        font-size: 22px;
+    .clients_main,
+    .address_box,
+    .contact_item {
+        text-align: center;
     }
-    .slider-contant h2 {
-        font-size: 57px;
-        /* margin-top: 50px; */
-        color: #fff;
-        font-weight: 900;
+    .clients_main {
+        padding: 0px;
+        background: transparent;
     }
-    #resumeheading {
-        margin-top: 20px;
+    .direction {
+        border: none;
     }
-    #resume-heading h2{
-        display: none;
+    .address_box p {
+        width: 80%;
+        margin: auto;
     }
-    .resume {
-        margin-top: 0px;
+    .hero_item::before .chating_button {
+        margin-top: 2%;
     }
-    #front-end h2 {
-        margin-top: 15px;
-        font-weight: 200;
+    /*--- Home Version2 --*/
+    .home_content h2 {
+        font-size: 35px
     }
-    #front-end p {
-        font-weight: 200;
-        font-size: 19px;
-        text-align: left;
-        margin-left: 23px;
-    }
-    div#front-end img {
-        width: 296px;
-        height: 321px;
-    }
-    div#javascript img {
-        width: 330px;
-        height: 250px;
-        margin-top: 35px;
-    }
-    #javascript h2 {
-        text-align: left;
-        margin-top: 30px;
-        font-weight: 200;
-    }
-    div#wordpress img {
-        height: 296px;
-        width: 344px;
-    }
-    .btn-default {
-        font-size: 25px;
-        background-color: #fff;
-        border: 3px solid #000;
-        margin-right: 123px;
-        margin-bottom: 10px;
-        padding: 10px 50px 10px 50px;
-        border-radius: inherit;
+    .home_content p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 5px;
+        margin-bottom: 12px;
     }
 }
 
-
-@media screen and (max-width: 600px) {
-    .navbar-nav>li>a{
-        background: #77dace;
+@media only screen and (max-width: 400px) {
+    .middil_content_left h1 {
+        font-size: 83px;
     }
-    .slider-img img{
-        display: inline;
-        width: 200px;
-        height: 200px;
-        border-radius: 123px;
-        border: 10px solid #fff;
-        margin-left: 72px;
-        margin-top: 15px;
+    .middil_content_right::before {
+        height: 89%;
+        width: 4px;
+        bottom: 5px;
     }
-    a.navbar-brand img {
-        max-width: 60%;
-        margin-top: -13px;
+    .middil_content_right {
+        padding-left: 10px;
     }
-    .heading h1 {
-        font-size: 31px;
-        font-weight: 700;
-    }
-    .heading h3 {
+    .middil_content_right h2 {
         font-size: 22px;
-        line-height: 4px;
-        margin-bottom: 28px;
+        line-height: 1.2;
     }
-    .about-me-section {
-        background: #6cf1fa;
-        /*background-image: url("../img/profile.jpg");*/
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 700px;
+    .middil_content_right h4 {
+        font-size: 16px;
+        line-height: 1;
     }
-    section#about p {         
-        margin: 0 0 10px;
-        line-height: 30px;
-        text-align: -webkit-auto;        
+    .middil_content_right span {
+        font-size: 16px;
     }
-    #bg-img {
-        background-image: url(../img/bg-img.jpg);
-        background-repeat: no-repeat;
-        height: 310px;
-        background-size: 847px auto;
+    .all-button {
+        padding: 10px 22px;
+        font-size: 12px;
     }
-    #call-to-action h2 {
-        color: #fff;
-        font-family: lato;
-        text-transform: uppercase;
-        margin-top: 110px;
-        font-size: 20px;
-         margin-left: 0px;
+    .contact_item .b-btn {
+        padding: 10px 22px;
+        font-size: 12px;
     }
-    #call-to-action h4 {
-        color: #fff;
-        font-family: lato;
-        font-size: 10px;
-         margin-left: 0;
-    }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 135px;
+    /*--- Home Version2 --*/
+    .home_content h2 {
         font-size: 25px;
-        font-weight: 700;
     }
-    .slider-contant h3 {
-        color: #fff;
-        font-weight: bold;
-        font-size: 22px;
+    .home_content p {
+        font-size: 12px;
+        line-height: 12px;
     }
-    .slider-contant h2 {
-        font-size: 57px;
-        /* margin-top: 50px; */
-        color: #fff;
-        font-weight: 900;
-    }
-    .slider-contant h1 {
-        font-size: 70px;
-        margin-top: 156px;
-        color: #fff;
-        font-weight: 900;
-    }
-    #resumeheading {
-        margin-top: 20px;
-    }
-    #resume-heading h2{
-        display: none;
-    }
-    #front-end h2 {
-        margin-top: 15px;
-        font-weight: 200;
-    }
-    #front-end p {
-        font-weight: 200;
-        font-size: 19px;
-        text-align: left;
-    }
-    div#front-end img {
-        width: 296px;
-        height: 321px;
-    }
-    #javascript h2 {
-        text-align: left;
-        margin-top: 30px;
-        font-weight: 200;
-    }
-    div#wordpress img {
-        height: 296px;
-        width: 344px;
-    }
-    .resume {
-        margin-top: 0px;
-    }
-    .btn-default {
-        font-size: 25px;
-        background-color: #fff;
-        border: 3px solid #000;
-        margin-right: 123px;
-        margin-bottom: 10px;
-        padding: 10px 50px 10px 50px;
-        border-radius: inherit;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .navbar-nav>li>a{
-        background: #77dace;
-    }
-    .slider-img img{
-        display: inline;
-        width: 200px;
-        height: 200px;
-        border-radius: 123px;
-        border: 10px solid #fff;
-        margin-left: 46px;
-        margin-top: 15px;
-    }
-    #bg-img {
-        background-image: url(../img/bg-img.jpg);
-        background-repeat: no-repeat;
-        height: 309px;
-        background-size: 690px auto;
-    }
-    .slider-contant h3 {
-        color: #fff;
-        font-weight: bold;
-        font-size: 21px;
-        text-align: center;
-    }
-    .slider-contant h2 {
-        font-size: 57px;
-        /* margin-top: 50px; */
-        color: #fff;
-        font-weight: 900;
-        text-align: center;
-    }
-    .slider-contant h1 {
-        text-align: center;
-        font-size: 70px;
-        margin-top: 156px;
-        color: #fff;
-        font-weight: 900;
-        text-align: center;
-    }
-    #resumeheading {
-        margin-top: 20px;
-    }
-    #resume-heading h2{
-        display: none;
-    }
-    #front-end h2 {
-        margin-top: 15px;
-        font-weight: 200;
-    }
-    #front-end p {
-        font-weight: 200;
-        font-size: 19px;
-        text-align: left;
-        margin-left: 23px;
-    }
-    div#front-end img {
-        width: 296px;
-        height: 321px;
-    }
-    div#javascript img {
-        width: 279px;
-        height: 194px;
-        margin-top: 35px;
-        margin-left: -10px;
-    }
-    #javascript h2 {
-        text-align: left;
-        margin-top: 30px;
-        font-weight: 200;
-    }
-    div#wordpress img {
-        height: 259px;
-        width: 270px;
-        margin-left: -5px;
-    }
-    .resume {
-        margin-top: 0px;
-    }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 76px;
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .btn-default {
-        font-size: 25px;
-        background-color: #fff;
-        border: 3px solid #000;
-        margin-right: 123px;
-        margin-bottom: 10px;
-        padding: 10px 50px 10px 50px;
-        border-radius: inherit;
-    }
-    #protfoliyo-img img {
-        display: inline-block;
-        width: 240px;
-        height: 173px;
-        margin: 5px 16px 16px 11px;
-    }
-
-
-
-}
-
-
-@media screen and (max-width: 400px) {
-    .navbar-nav>li>a{
-        background: #77dace;
-    }
-    .slider-img img{
-        display: inline;
-        width: 200px;
-        height: 200px;
-        border-radius: 123px;
-        border: 10px solid #fff;
-        margin-left: 47px;
-        margin-top: 15px;
-    }
-    a.navbar-brand img {
-        max-width: 67%;
-        margin-top: -5px;
-    }
-    .heading h1 {
-        font-size: 31px;
-        font-weight: 700;
-    }
-    .heading h3 {
-        font-size: 22px;
-        line-height: 4px;
-        margin-bottom: 28px;
-    }
-    #bg-img {
-        background-image: url(../img/bg-img.jpg);
-        background-repeat: no-repeat;
-        height: 309px;
-        background-size: 690px auto;
-    }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 76px;
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .slider-contant h3 {
-        color: #fff;
-        font-weight: bold;
-        font-size: 21px;
-        text-align: center;
-    }
-    .slider-contant h2 {
-        font-size: 43px;
-        /* margin-top: 50px; */
-        color: #fff;
-        text-align: center;
-        font-weight: 900;
-    }
-    .slider-contant h1 {
-        font-size: 70px;
-        margin-top: 156px;
-        color: #fff;
-        font-weight: 900;
-    }
-    #resumeheading {
-        margin-top: 20px;
-    }
-    #resume-heading h2{
-        display: none;
-    }
-    #front-end h2 {
-        margin-top: 15px;
-        font-weight: 200;
-    }
-    #front-end p {
-        font-weight: 200;
-        font-size: 19px;
-        text-align: left;
-        margin-left: 23px;
-    }
-    div#front-end img {
-        width: 296px;
-        height: 321px;
-        margin-left: -20px;
-    }
-    div#javascript img {
-        width: 279px;
-        height: 194px;
-        margin-top: 35px;
-        margin-left: -10px;
-    }
-    #javascript h2 {
-        text-align: left;
-        margin-top: 30px;
-        font-weight: 200;
-    }
-    div#wordpress img {
-        height: 259px;
-        width: 270px;
-        margin-left: -5px;
-    }
-    .resume {
-        margin-top: 0px;
-    }
-    #call-to-action-btn button {
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid #fff;
-        border-radius: 0;
-        margin-top: 0;
-        margin-left: 76px;
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .btn-default {
-        font-size: 25px;
-        background-color: #fff;
-        border: 3px solid #000;
-        margin-right: 123px;
-        margin-bottom: 10px;
-        padding: 10px 50px 10px 50px;
-        border-radius: inherit;
-    }#protfoliyo-img img {
-         display: inline-block;
-         width: 240px;
-         height: 173px;
-         margin: 5px 16px 16px 11px;
-     }
-
 }
