@@ -1272,6 +1272,12 @@ p.success {
 .googleMap {
     margin-bottom: -10px;
 }
+iframe.locationoMapLoc {
+    width: -webkit-fill-available;
+}
+.locationoMap {
+    border-top: 4px dashed;
+}
 
 /*=====================================================================
     FOOTER
