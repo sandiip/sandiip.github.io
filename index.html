@@ -39,7 +39,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <!-- Lightbox Core CSS  -->
     <link rel="stylesheet" href="css/lightbox.min.css">
@@ -81,7 +81,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top" >SANDEEP</a>
+            <a class="navbar-brand page-scroll wow bounceInUp" data-wow-delay="1s" href="#page-top" >SANDEEP</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -113,12 +113,12 @@
 
     <!-- header item-->
     <div class="caption text-center">
-        <div class="middil_content_left">
+        <div class="middil_content_left wow flipOutX" data-wow-delay=".98s">
             <h1>Hi</h1>
         </div>
-        <div class="middil_content_right ">
+        <div class="middil_content_right">
             <h4>I am</h4>
-            <h2>SANDEEP PANWAR</h2>
+            <h2 class="wow rotateInUpRight" data-wow-delay=".8s">SANDEEP PANWAR</h2>
             <h4>A</h4> <span></span>
         </div>
         <div class="home_button">
@@ -137,7 +137,7 @@
         <div class="row">
 
             <!-- hero image -->
-            <div class="col-md-5 col-sm-12 col-xs-12">
+            <div class="col-md-5 col-sm-12 col-xs-12 wow rollIn" data-wow-delay=".3s">
                 <div class="hero_img text-center">
                     <img src="img/about/about.png" alt="">
                 </div>
@@ -146,11 +146,11 @@
             <!-- hero item -->
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="hero_item">
-                    <div class="hero_txt mb-50">
+                    <div class="hero_txt mb-50 wow jackInTheBox" data-wow-delay=".8s">
                         <h3>Know Me</h3>
                         <span class="bit"></span>
                     </div>
-                    <div class="hero_para">
+                    <div class="hero_para wow lightSpeedIn" data-wow-delay="1s">
                         <p class="mb-10"><span>I</span>am Sandeep Panwar .I am good in Javascript/UI Developement with top to bottom data in HTML,CSS and local Javascript.
                             I follow latest Information & innovation trends. I have achievements in making sensible  UIs model & preparation net advancement codes.</p>
                         <p class="mb-20">I utilized my creative nature, approach with clear exactness made dynamic cross-program encounters. Basically,
@@ -415,7 +415,7 @@
                 <!-- portfolio Item -->
                 <div class="col-md-4 col-sm-4 col-xs-12 grid_item cat1 cat4 cat3">
                     <div class="portfolio_item text-center">
-                        <div class="portfolio_img">
+                        <div class="portfolio_img wow bounceInLeft" data-wow-delay=".5s">
                             <img src="img/gallery/sm1.jpg" alt="">
                             <div class="portfolio_icon">
                                 <a href="img/gallery/sm1.jpg" data-lightbox="image-1" data-title="Your Title Is here">
@@ -423,7 +423,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="portfolio_title">
+                        <div class="portfolio_title wow bounceInUp" data-wow-delay="1s">
                             <h6>DEEDNsDRAFT</h6>
                             <p>WORDPRESS DEVELOPMENT</p>
                         </div>
@@ -433,7 +433,7 @@
                 <!-- portfolio Item -->
                 <div class="col-md-4 col-sm-4 col-xs-12 grid_item cat1 cat3 cat1">
                     <div class="portfolio_item text-center">
-                        <div class="portfolio_img">
+                        <div class="portfolio_img wow bounceInLeft" data-wow-delay=".5s">
                             <img src="img/gallery/lg1.jpg" alt="">
                             <div class="portfolio_icon">
                                 <a href="img/gallery/lg1.jpg" data-lightbox="image-1" data-title="Your Title Is here">
@@ -441,7 +441,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="portfolio_title">
+                        <div class="portfolio_title wow bounceInUp" data-wow-delay="1s">
                             <h6>NEWS</h6>
                             <p>WORDPRESS DEVELOPMENT</p>
                         </div>
@@ -451,7 +451,7 @@
                 <!-- portfolio Item -->
                 <div class="col-md-4 col-sm-4 col-xs-12 grid_item cat3 cat4 cat2">
                     <div class="portfolio_item text-center">
-                        <div class="portfolio_img">
+                        <div class="portfolio_img  wow bounceInRight" data-wow-delay=".5s">
                             <img src="img/gallery/sm2.jpg" alt="">
                             <div class="portfolio_icon">
                                 <a href="img/gallery/sm2.jpg" data-lightbox="image-1" data-title="Your Title Is here">
@@ -459,7 +459,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="portfolio_title">
+                        <div class="portfolio_title wow bounceInUp" data-wow-delay="1s">
                             <h6>WHEELSINDREAMS</h6>
                             <p>Front End & UI</p>
                         </div>
@@ -687,7 +687,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="footer_img_text">
+                <div class="footer_img_text wow bounceInDown" data-wow-delay=".5s">
                     <h1>Sandeep Panwar</h1>
                 </div>
                 <div class="footer_link mt-10 mb-10">
@@ -755,7 +755,11 @@
 <script src="js/app1.js"></script>
 
  
-
+<!--wow js for animatin triger-->
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 <!-- ====== Custom JavaScript ======-->
 <script src="js/main.js"></script>
