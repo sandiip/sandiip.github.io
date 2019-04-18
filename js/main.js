@@ -4,10 +4,10 @@
     $(window).on('load', function() {
         
         /*--====== Preloader ======--*/
-         $('body').delay(10).css({
+         $('body').delay(1).css({
             'overflow': 'visible'
           });
-        $('#page-loader').delay().fadeOut('slow').remove();
+        $('#page-loader').delay().fadeOut('fast').remove();
         /*--====== End Preloader ======--*/
         
         /*--====== Galery Fillter ======--*/
