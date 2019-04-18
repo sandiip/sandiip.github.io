@@ -4,7 +4,7 @@
     $(window).on('load', function() {
         
         /*--====== Preloader ======--*/
-         $('body').delay(10).css({
+         $('body').delay(100).css({
             'overflow': 'visible'
           });
         $('#page-loader').delay().fadeOut('slow').remove();
